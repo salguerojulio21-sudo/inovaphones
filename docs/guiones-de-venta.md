@@ -102,6 +102,30 @@ Después del pago, envía por WhatsApp:
 
 ---
 
-## 8. Variante para servicios técnicos de celulares
+## 8. Idea 2: Negocio en Regla
 
-> "¿Cuántas veces al día le preguntan '¿cuánto el cambio de pantalla del [modelo]?'? Le armo un cotizador por WhatsApp. El cliente escribe su modelo y recibe al instante el precio, el tiempo de entrega y la garantía. Usted solo atiende al que ya decidió."
+> "[Nombre], revisé su tienda online y no encontré el Libro de Reclamaciones virtual [o: el enlace no funciona]. Según fuentes del sector, INDECOPI multa desde media UIT (S/ 2,750) solo por no exhibir el aviso. Por S/ 300 se lo dejo funcionando esta semana: formulario, enlace visible, aviso y un procedimiento para responder cada reclamo dentro del plazo. ¿Lo vemos?"
+
+Reglas:
+- No asustes con cifras que no puedas respaldar. Muestra la captura de la tienda y la fuente.
+- Deja claro que los textos legales los revisa un abogado aliado.
+
+## 9. Idea 3: Back office de facturación
+
+> "Vi que abrió su RUC hace poco. Desde junio, SUNAT exige emitir comprobantes electrónicos desde el primer día. Yo me encargo de emitirlos, cuadro sus Yapes y Plines con cada comprobante y le entrego todo ordenado a su contador cada mes. Desde S/ 250 al mes. ¿Cuántos comprobantes emite a la semana?"
+
+## 10. Idea 5: Cobranza por WhatsApp (colegios y academias)
+
+> "Buenas, [nombre]. Trabajo con academias de [distrito] que tienen pensiones atrasadas. Armo recordatorios automáticos por WhatsApp antes y después del vencimiento, con QR de pago, y cada semana le reporto cuánto se recuperó. Todo dentro de lo que permite el Código del Consumidor: sin llamadas de noche ni fines de semana, y sin exponer a nadie. ¿Cuántas pensiones tiene atrasadas este mes?"
+
+## 11. Idea 4: Anuncios (trafficker)
+
+> "[Nombre], ¿está pagando anuncios en Facebook o Instagram? Le propongo algo simple: durante un mes manejo sus anuncios con el presupuesto que usted defina, y cada semana le muestro cuántos mensajes y pedidos llegaron por cada sol invertido. Si al mes no le sirve, lo dejamos ahí."
+
+Reglas:
+- Nunca prometas ventas. Promete métricas y reportes.
+- El presupuesto de anuncios lo pone el cliente, y va aparte de tu tarifa.
+
+## 12. Idea 12: Clases particulares (grupos de padres)
+
+> "Hola, soy [nombre]. Doy clases de [materia] para [grado o nivel] en [distrito] y también online. Primera clase de prueba gratis. S/ [precio] la hora; en grupos de 2 o 3 alumnos, sale más barato por alumno. Escríbame al [número]."
