@@ -6,8 +6,8 @@ Plan de negocio para generar ingresos desde el Perú con poco capital.
 
 Dejamos consultorios y negocios con citas listos para que los encuentren en Google y los agenden por WhatsApp. En 48 horas, desde S/ 350.
 
-- **Nicho inicial:** consultorios dentales.
-- **Nichos de respaldo:** veterinarias, salones y barberías.
+- **Nicho inicial:** consultorios, veterinarias y hospedajes de Jauja, Huancayo y Tarma.
+- **Modalidad:** 100 % virtual, sin visitas en persona. Ver [`docs/prospeccion-virtual.md`](docs/prospeccion-virtual.md).
 
 **Empieza aquí:** [`docs/plan-inova-digital.md`](docs/plan-inova-digital.md), con el plan de los primeros 14 días.
 
@@ -16,6 +16,7 @@ Dejamos consultorios y negocios con citas listos para que los encuentren en Goog
 | Archivo | Para qué sirve |
 |---|---|
 | [`docs/plan-inova-digital.md`](docs/plan-inova-digital.md) | Plan de ejecución: nicho, oferta, economía del negocio, 14 días día por día, metas, puntos de corte y riesgos |
+| [`docs/prospeccion-virtual.md`](docs/prospeccion-virtual.md) | Cómo conseguir clientes a distancia: canales, límites diarios, entrega remota y reglas |
 | [`sitio/index.html`](sitio/index.html) | Web de Inova Digital. Configura tu número en el bloque `CONFIG` |
 | [`plantillas/pagina-cliente.html`](plantillas/pagina-cliente.html) | Plantilla de página para cada cliente. Se edita solo el bloque `NEGOCIO` |
 | [`plantillas/whatsapp-por-rubro.md`](plantillas/whatsapp-por-rubro.md) | Textos de WhatsApp Business para Inova, dentistas, veterinarias y salones |
@@ -32,4 +33,4 @@ Dejamos consultorios y negocios con citas listos para que los encuentren en Goog
 2. En "Source", elige **Deploy from a branch** con esta rama y la carpeta `/ (root)`.
 3. La web quedará en `https://salguerojulio21-sudo.github.io/inovaphones/sitio/`.
 
-**Importante:** este repositorio es **público**. Todo lo que subas aquí lo puede ver cualquiera.
+**Importante:** este repositorio es **público**. Todo lo que subas aquí lo puede ver cualquiera. Por eso la lista de prospectos **no** está aquí: vive en una página privada.

@@ -2,7 +2,9 @@
 
 Fecha: 28-09-2026
 
-**Supuestos de este plan:** le dedicas 4 a 5 horas al día, trabajas en un distrito de Lima y tienes capital cero. Si algo de esto no aplica, se ajustan las metas, no la estrategia.
+**Supuestos de este plan:** trabajas **100 % virtual** desde Jauja, sin visitas en persona. Tus clientes están en Jauja, Huancayo y Tarma. Le dedicas 3 a 4 horas al día y tienes capital cero.
+
+El detalle de cómo prospectar y entregar a distancia está en [`docs/prospeccion-virtual.md`](prospeccion-virtual.md).
 
 ---
 
@@ -22,11 +24,11 @@ Fecha: 28-09-2026
 
 ## 2. Nicho: negocios que viven de citas
 
-**Nicho principal:** consultorios dentales.
-**Nichos de respaldo:** veterinarias, salones y barberías, y consultorios de fisioterapia o nutrición.
+**Nicho principal:** negocios de Junín que viven de citas o reservas: consultorios (dental, psicología, nutrición y fisioterapia), veterinarias y hospedajes.
+**Nichos de respaldo:** restaurantes, pastelerías, salones y barberías, gimnasios, colegios y academias.
 
 **Por qué este nicho**
-- Cada paciente nuevo vale mucho frente al precio del servicio. En Lima, una limpieza dental cuesta entre S/ 80 y 350 según el distrito, y una consulta, entre S/ 40 y 120 (fuentes del sector, 2026).
+- Cada paciente nuevo vale mucho frente al precio del servicio. En Lima, una limpieza dental cuesta entre S/ 80 y 350 según el distrito, y una consulta, entre S/ 40 y 120 (fuentes del sector, 2026). En Junín los precios pueden ser menores.
 - Con 2 o 3 pacientes nuevos, el paquete de S/ 350 se paga solo. Es un argumento que el dueño entiende en 10 segundos.
 - La gente busca "dentista cerca de mí" en Google Maps y agenda por WhatsApp. Justo eso es lo que Inova Digital arregla.
 
@@ -60,7 +62,7 @@ Fecha: 28-09-2026
 | Precio del paquete básico | S/ 350 | |
 | Horas por entrega | 5 | Estimación. Con plantillas, la meta es bajar a 3. |
 | Ingreso por hora | S/ 70 | S/ 350 ÷ 5 h |
-| Costo directo por cliente | S/ 10 a 20 | Impresión de QR y pasajes. Estimación. |
+| Costo directo por cliente | S/ 5 a 10 | Internet y saldo. No hay pasajes porque todo es virtual. Estimación. |
 | Ventas para superar la RMV (S/ 1,130) | **4** paquetes básicos | 4 × S/ 350 = S/ 1,400 |
 
 ### Metas
@@ -94,14 +96,14 @@ Las metas de los meses 2 y 3 son supuestos para medir avance, no pronósticos. E
 
 ### Día 2: publicar y preparar la lista
 - [ ] Publicar tu web `sitio/index.html` con GitHub Pages; los pasos están en la sección 7. Toma unos 15 minutos.
-- [ ] En Google Maps, buscar "dentista", "veterinaria" y "barbería" en tu distrito. Registrar **60 negocios** en `herramientas/prospectos.csv`, anotando el problema visible de cada uno: sin fotos, sin horario, pocas reseñas, sin web.
+- [x] Lista de prospectos: ya tienes **112 negocios** de Jauja, Huancayo y Tarma en la página privada de prospectos. Cada uno trae la señal observada, su enlace y un mensaje personalizado.
 - [ ] Sacar tu RUC como persona natural y activar los recibos por honorarios electrónicos en SUNAT.
 
-### Días 3 a 7: salir a vender
-- [ ] Cada día hacer 10 visitas en persona, en horas de poca atención, y enviar 10 mensajes uno a uno (guiones en `docs/guiones-de-venta.md`).
-- [ ] En cada visita, mostrar en el celular la ficha de Google del negocio y ofrecer el diagnóstico gratis de 10 minutos.
+### Días 3 a 7: salir a vender (virtual)
+- [ ] Cada día, verificar 25 negocios de la lista y enviar entre 20 y 25 primeros mensajes por Messenger, Instagram o WhatsApp publicado, con el botón "Copiar primer mensaje".
+- [ ] A quien responda, enviarle el diagnóstico gratis de 3 puntos, con capturas, y ofrecer una videollamada de 10 minutos.
 - [ ] A los 3 primeros negocios que acepten, arreglarles gratis la ficha de Google a cambio de un testimonio.
-- [ ] **Meta de la semana:** 100 contactos, 15 diagnósticos y **3 ventas**.
+- [ ] **Meta de la semana:** 110 mensajes, 12 diagnósticos y **3 ventas**.
 
 ### Días 8 a 10: entregar
 - [ ] Mandar a cada cliente el formulario `plantillas/formulario-materiales.md` y firmar el acuerdo `plantillas/acuerdo-de-servicio.md`.
@@ -115,14 +117,14 @@ Las metas de los meses 2 y 3 son supuestos para medir avance, no pronósticos. E
 - [ ] Revisar tus números conmigo: contactos, diagnósticos, ventas y horas por entrega.
 - [ ] **Meta acumulada:** 5 ventas.
 
-### Rutina diaria sugerida (4 a 5 h)
+### Rutina diaria sugerida (3 a 4 h, desde casa)
 
 | Bloque | Actividad |
 |---|---|
-| Media mañana (2 h) | Visitas en persona |
-| Mediodía (30 min) | Mensajes uno a uno y seguimientos |
-| Tarde (1,5 a 2 h) | Entregas y configuración |
-| Noche (15 min) | Actualizar `prospectos.csv` y anotar las métricas del día |
+| 45 min | Verificar negocios de la lista y enviar los primeros mensajes |
+| 30 min | Responder, enviar diagnósticos y seguimientos a las 48 h |
+| 1,5 a 2 h | Videollamadas de diagnóstico y de entrega |
+| 15 min | Actualizar estados en la página de prospectos |
 
 ---
 
@@ -131,10 +133,11 @@ Las metas de los meses 2 y 3 son supuestos para medir avance, no pronósticos. E
 | Claude (listo o a pedido) | Tú |
 |---|---|
 | ✅ Web de Inova Digital: `sitio/index.html` | Chip de trabajo, WhatsApp Business y ficha de Google propios |
-| ✅ Plantilla de página para cada cliente: `plantillas/pagina-cliente.html` | Lista de prospectos |
-| ✅ Textos de WhatsApp por rubro: `plantillas/whatsapp-por-rubro.md` | Visitas, conversaciones y cierres |
+| ✅ Plantilla de página para cada cliente: `plantillas/pagina-cliente.html` | Verificar los negocios de la lista antes de escribirles |
+| ✅ Lista de 112 negocios con mensaje personalizado (página privada) | Mensajes, videollamadas y cierres |
+| ✅ Textos de WhatsApp por rubro: `plantillas/whatsapp-por-rubro.md` | Mantener el estado de cada negocio al día en la página |
 | ✅ Formulario de materiales y acuerdo de servicio | Cobros por Yape o Plin y recibos por honorarios |
-| A pedido: armar la página de cada cliente con sus datos | Configurar el celular del cliente en la entrega |
+| A pedido: armar la página de cada cliente y preparar diagnósticos | Guiar por videollamada la configuración del celular del cliente |
 | Semana 3: construir el asistente con IA del paquete Agenda por WhatsApp | Conseguir el primer cliente piloto de ese paquete |
 | Cada semana: revisar tus métricas y ajustar guiones y precios | Mandarme tus números |
 
