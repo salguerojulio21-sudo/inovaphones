@@ -1,4 +1,4 @@
-# Guiones de venta: Inova Digital
+# Guiones de venta: Rikuy
 
 Todos los mensajes van uno a uno y personalizados. **Nunca** mandes mensajes masivos: te pueden bloquear el número y quemas el mercado.
 
@@ -6,7 +6,7 @@ Todos los mensajes van uno a uno y personalizados. **Nunca** mandes mensajes mas
 
 ## 1. Mensaje en frío por WhatsApp o Instagram
 
-> Hola, [nombre o nombre del negocio]. Soy [tu nombre], de Inova, en [distrito].
+> Hola, [nombre o nombre del negocio]. Soy [tu nombre], de Rikuy, en [distrito].
 > Busqué "[rubro] en [distrito]" en Google y su negocio [no aparece / aparece sin horario / aparece sin fotos / tiene pocas reseñas].
 > Eso les hace perder clientes que buscan justo lo que ustedes venden.
 > Esta semana lo reviso gratis en 10 minutos y le digo exactamente qué cambiar. ¿Le parece [día] a las [hora]?
@@ -24,7 +24,7 @@ Todos los mensajes van uno a uno y personalizados. **Nunca** mandes mensajes mas
 
 ## 2. Visita en persona (30 segundos)
 
-> Buenas, ¿el encargado? Soy [nombre], de Inova. Ayudo a negocios de la zona a recibir más pedidos por WhatsApp y Google.
+> Buenas, ¿el encargado? Soy [nombre], de Rikuy. Ayudo a negocios de la zona a recibir más pedidos por WhatsApp y Google.
 > [Muestra el celular con su ficha de Google] Así los ve hoy un cliente que los busca. Le falta [X] y [Y].
 > En 48 horas se lo dejo listo: catálogo en WhatsApp, respuestas automáticas y su ficha de Google completa. Son S/ 350, y pagando la mitad empiezo hoy.
 > ¿Cuántas consultas por WhatsApp les llegan al día?
