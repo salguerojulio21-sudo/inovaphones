@@ -6,6 +6,8 @@ Plan de negocio para generar ingresos desde el Perú con poco capital.
 
 Dejamos consultorios y negocios con citas listos para que los encuentren en Google y los agenden por WhatsApp. En 48 horas, desde S/ 350.
 
+También hacemos páginas web (desde S/ 690) y automatizaciones: pedidos, recordatorios y reportes (desde S/ 350).
+
 - **Nicho inicial:** consultorios, veterinarias y hospedajes de Jauja, Huancayo y Tarma.
 - **Modalidad:** 100 % virtual, sin visitas en persona. Ver [`docs/prospeccion-virtual.md`](docs/prospeccion-virtual.md).
 
@@ -17,7 +19,7 @@ Dejamos consultorios y negocios con citas listos para que los encuentren en Goog
 |---|---|
 | [`docs/plan-inova-digital.md`](docs/plan-inova-digital.md) | Plan de ejecución: nicho, oferta, economía del negocio, 14 días día por día, metas, puntos de corte y riesgos |
 | [`docs/prospeccion-virtual.md`](docs/prospeccion-virtual.md) | Cómo conseguir clientes a distancia: canales, límites diarios, entrega remota y reglas |
-| [`sitio/index.html`](sitio/index.html) | Web de Inova Digital. Configura tu número en el bloque `CONFIG` |
+| [`sitio/index.html`](sitio/index.html) | Web de Inova Digital, con demos interactivas, servicios, precios y contacto. Configura tu número en el bloque `CONFIG` |
 | [`plantillas/pagina-cliente.html`](plantillas/pagina-cliente.html) | Plantilla de página para cada cliente. Se edita solo el bloque `NEGOCIO` |
 | [`plantillas/whatsapp-por-rubro.md`](plantillas/whatsapp-por-rubro.md) | Textos de WhatsApp Business para Inova, dentistas, veterinarias y salones |
 | [`plantillas/formulario-materiales.md`](plantillas/formulario-materiales.md) | Qué pedirle al cliente después del adelanto |

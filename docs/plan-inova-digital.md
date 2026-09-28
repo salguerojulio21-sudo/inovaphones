@@ -48,6 +48,25 @@ El detalle de cómo prospectar y entregar a distancia está en [`docs/prospeccio
 
 **Garantía:** si no está listo 48 h después de que el cliente te envía los materiales, le devuelves el adelanto.
 
+### Servicios adicionales: páginas web y automatizaciones
+
+Se venden al mismo cliente después del paquete básico, o por separado. Son precios de lanzamiento: el precio final se confirma después del diagnóstico.
+
+| Servicio | Precio de lanzamiento | Entrega | Referencia de mercado en el Perú (2026) |
+|---|---|---|---|
+| Web de una página | desde S/ 690 | 5 días | Una landing cuesta entre S/ 950 y 1,850 |
+| Web completa (hasta 5 secciones) | desde S/ 1,290 | 7 a 10 días | Una web corporativa de pyme cuesta entre S/ 1,500 y 5,000 |
+| Catálogo con pedidos por WhatsApp (hasta 50 productos) | desde S/ 1,490 | 10 a 15 días | Una tienda con pago en línea cuesta entre S/ 5,000 y 10,000; esa se cotiza aparte |
+| Pedidos y formularios en orden (se guardan en una hoja de Google y avisan al WhatsApp o al correo) | desde S/ 350 | 3 días | Las automatizaciones de agencia cuestan entre S/ 3,500 y 15,000 |
+| Recordatorios automáticos de citas y pagos | desde S/ 450 + S/ 80 al mes | 5 días | Igual que la fila anterior; los costos de WhatsApp van aparte |
+| Reportes automáticos de ventas y caja | desde S/ 400 + S/ 100 al mes | 5 a 7 días | Igual que la fila anterior |
+
+El dominio propio (tunegocio.com o tunegocio.pe) se paga aparte y queda a nombre del cliente.
+
+**Fuentes de las referencias de mercado:**
+- Precios de páginas web en el Perú: https://kom.pe/cuanto-cuesta-pagina-web-peru-2026/ y https://diginperu.com/blog/cuanto-cuesta-crear-pagina-web-peru-2026
+- Precios de automatización: https://sentryopen.com.pe/blog-cuanto-cuesta-automatizacion-ia-peru
+
 **Costos del asistente con IA**
 - Desde julio de 2025, Meta cobra la plataforma de WhatsApp Business por mensaje: solo se pagan las plantillas que el negocio envía. Responder dentro de la ventana de 24 h de atención al cliente no tiene costo.
 - Meta anunció cambios de precios para agosto y octubre de 2026. Verifica las tarifas vigentes antes de cotizar.
