@@ -1,10 +1,10 @@
-# Plan de ingresos: Rikuy (versión 2)
+# Plan de ingresos: AIXA (versión 2)
 
 Fecha: 24-09-2026
 
 **Cambios respecto a la versión 1**
 - Se retiraron Inova Phones, los accesorios y reacondicionados, y el trading.
-- Se mantiene la idea 1, Rikuy.
+- Se mantiene la idea 1, AIXA.
 - Se agregan 11 ideas nuevas, todas de servicios: no necesitan inventario y cobras en días o semanas.
 
 **Supuestos de partida:** trabajas desde el Perú, tienes poco capital, manejas computadora y celular, y puedes usar IA.
@@ -17,7 +17,7 @@ Los tiempos al primer cobro son **estimaciones propias**: dependen de cuántos c
 
 | # | Idea | Capital | 1er cobro* | Ingreso recurrente | Rol |
 |---|---|---|---|---|---|
-| 1 | Rikuy: WhatsApp, Google e IA para mypes | S/ 0 a 100 | 7 a 14 días | Sí | **Base** |
+| 1 | AIXA: WhatsApp, Google e IA para mypes | S/ 0 a 100 | 7 a 14 días | Sí | **Base** |
 | 2 | Negocio en Regla: libro de reclamaciones virtual y datos personales | S/ 0 | 7 a 14 días | Sí | Complemento de la 1 |
 | 3 | Back office de facturación electrónica | S/ 0 | 14 a 21 días | Sí | Escala |
 | 4 | Trafficker: anuncios en Meta, TikTok y Google | S/ 0 | 14 a 30 días | Sí | Escala |
@@ -36,7 +36,7 @@ Los tiempos al primer cobro son **estimaciones propias**: dependen de cuántos c
 
 ### Servicios para negocios locales
 
-#### 1. Rikuy (se mantiene)
+#### 1. AIXA (se mantiene)
 - **Qué vendes:** WhatsApp Business configurado, ficha de Google, página simple, QR de pago y un asistente con IA que responde y cotiza.
 - **A quién:** restaurantes con delivery, consultorios, academias, talleres, tiendas de barrio.
 - **Por qué pagan:** en un estudio sobre mypes de Lima, solo el 18,9 % tiene web y el 67,5 % vende principalmente por redes o WhatsApp.
@@ -154,7 +154,7 @@ Los tiempos al primer cobro son **estimaciones propias**: dependen de cuántos c
 
 **Combinación recomendada si no sabes por dónde empezar:** 12 + 1 + 2.
 - Las clases te dan caja la primera semana.
-- Rikuy es el motor.
+- AIXA es el motor.
 - Negocio en Regla sube el ticket con el mismo cliente. Paquete combinado propuesto: **S/ 550** (Negocio Visible + Negocio en Regla).
 
 ---

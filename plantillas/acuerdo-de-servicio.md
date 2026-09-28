@@ -1,4 +1,4 @@
-# Acuerdo de servicio: Rikuy
+# Acuerdo de servicio: AIXA
 
 > **Modelo referencial.** No es asesoría legal. Antes de usarlo con muchos clientes, pide a un abogado que lo revise.
 > Puedes enviarlo por WhatsApp o correo y pedir que el cliente responda "Acepto", o imprimirlo y firmarlo.
@@ -7,7 +7,7 @@
 
 **Fecha:** [dd/mm/aaaa]
 
-**Proveedor:** [Tu nombre completo], DNI/RUC [número], con nombre comercial "Rikuy", WhatsApp [número].
+**Proveedor:** [Tu nombre completo], DNI/RUC [número], con nombre comercial "AIXA", WhatsApp [número].
 
 **Cliente:** [Nombre o razón social], DNI/RUC [número], representado por [nombre], WhatsApp [número].
 
@@ -67,4 +67,4 @@ No incluye:
 
 Proveedor: _______________________  Cliente: _______________________
 
-O aceptación por mensaje: "Acepto el acuerdo de servicio de Rikuy del [fecha]".
+O aceptación por mensaje: "Acepto el acuerdo de servicio de AIXA del [fecha]".

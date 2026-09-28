@@ -1,4 +1,4 @@
-# Plan de ejecución: Rikuy
+# Plan de ejecución: AIXA
 
 Fecha: 28-09-2026
 
@@ -10,7 +10,7 @@ El detalle de cómo prospectar y entregar a distancia está en [`docs/prospeccio
 
 ## 1. La decisión
 
-**Idea elegida:** Rikuy (idea 1), con Negocio en Regla (idea 2) como complemento que se le vende al mismo cliente.
+**Idea elegida:** AIXA (idea 1), con Negocio en Regla (idea 2) como complemento que se le vende al mismo cliente.
 
 | Criterio | Por qué gana esta idea |
 |---|---|
@@ -30,7 +30,7 @@ El detalle de cómo prospectar y entregar a distancia está en [`docs/prospeccio
 **Por qué este nicho**
 - Cada paciente nuevo vale mucho frente al precio del servicio. En Lima, una limpieza dental cuesta entre S/ 80 y 350 según el distrito, y una consulta, entre S/ 40 y 120 (fuentes del sector, 2026). En Junín los precios pueden ser menores.
 - Con 2 o 3 pacientes nuevos, el paquete de S/ 350 se paga solo. Es un argumento que el dueño entiende en 10 segundos.
-- La gente busca "dentista cerca de mí" en Google Maps y agenda por WhatsApp. Justo eso es lo que Rikuy arregla.
+- La gente busca "dentista cerca de mí" en Google Maps y agenda por WhatsApp. Justo eso es lo que AIXA arregla.
 
 **Hipótesis a validar:** que los consultorios de tu zona tienen la ficha de Google incompleta y responden tarde por WhatsApp.
 - Se valida con los primeros 20 diagnósticos.
@@ -109,8 +109,8 @@ Las metas de los meses 2 y 3 son supuestos para medir avance, no pronósticos. E
 
 ### Día 1: montar tu propia vitrina
 - [ ] Conseguir un chip prepago solo para trabajar e instalar **WhatsApp Business** con él.
-- [ ] Configurar tu WhatsApp Business como Rikuy con `plantillas/whatsapp-por-rubro.md`. Ese es tu primer caso de muestra.
-- [ ] Crear tu **ficha de Google Business** como Rikuy. Si no tienes local, puedes registrarla como negocio que atiende en una zona, sin mostrar tu dirección.
+- [ ] Configurar tu WhatsApp Business como AIXA con `plantillas/whatsapp-por-rubro.md`. Ese es tu primer caso de muestra.
+- [ ] Crear tu **ficha de Google Business** como AIXA. Si no tienes local, puedes registrarla como negocio que atiende en una zona, sin mostrar tu dirección.
 - [ ] Pasarme tu nombre comercial, tu número de WhatsApp y tu distrito para personalizar la web.
 
 ### Día 2: publicar y preparar la lista
@@ -151,7 +151,7 @@ Las metas de los meses 2 y 3 son supuestos para medir avance, no pronósticos. E
 
 | Claude (listo o a pedido) | Tú |
 |---|---|
-| ✅ Web de Rikuy: `sitio/index.html` | Chip de trabajo, WhatsApp Business y ficha de Google propios |
+| ✅ Web de AIXA: `sitio/index.html` | Chip de trabajo, WhatsApp Business y ficha de Google propios |
 | ✅ Plantilla de página para cada cliente: `plantillas/pagina-cliente.html` | Verificar los negocios de la lista antes de escribirles |
 | ✅ Lista de 112 negocios con mensaje personalizado (página privada) | Mensajes, videollamadas y cierres |
 | ✅ Textos de WhatsApp por rubro: `plantillas/whatsapp-por-rubro.md` | Mantener el estado de cada negocio al día en la página |

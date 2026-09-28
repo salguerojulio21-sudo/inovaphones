@@ -6,17 +6,17 @@ Cópialos en **Ajustes → Herramientas para la empresa** de WhatsApp Business y
 
 ---
 
-## 0. Rikuy (tu propio WhatsApp, tu demo)
+## 0. AIXA (tu propio WhatsApp, tu demo)
 
 **Descripción del perfil**
 > Ayudo a consultorios y negocios con citas de [distrito] a recibir más clientes por Google y WhatsApp. Diagnóstico gratis de 10 minutos. Paquetes desde S/ 350, listos en 48 h.
 
 **Mensaje de bienvenida**
-> ¡Hola! Soy [tu nombre], de Rikuy. 👋
+> ¡Hola! Soy [tu nombre], de AIXA. 👋
 > Cuéntame el nombre de tu negocio y tu distrito, y te hago un diagnóstico gratis de cómo te ven hoy en Google y WhatsApp.
 
 **Mensaje de ausencia**
-> Gracias por escribir a Rikuy. Respondo de lunes a sábado, de 9:00 a 19:00. Déjame el nombre de tu negocio y te escribo apenas pueda.
+> Gracias por escribir a AIXA. Respondo de lunes a sábado, de 9:00 a 19:00. Déjame el nombre de tu negocio y te escribo apenas pueda.
 
 **Respuestas rápidas**
 

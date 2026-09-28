@@ -1,4 +1,4 @@
-# Prospección 100 % virtual: Rikuy
+# Prospección 100 % virtual: AIXA
 
 **Sin visitas en persona.** Todo el ciclo se hace a distancia: contacto por redes, diagnóstico por mensaje o videollamada, cobro por Yape o Plin, y entrega guiada por videollamada.
 
@@ -58,7 +58,7 @@ La lista de negocios está en una página privada, no en este repositorio, porqu
 ## 5. Cómo generar confianza sin conocerte en persona
 
 - **Tu web:** publícala primero (`sitio/index.html`) y pon el enlace en cada mensaje.
-- **Tu ficha de Google:** Rikuy, registrada como negocio que atiende en la zona de Junín.
+- **Tu ficha de Google:** AIXA, registrada como negocio que atiende en la zona de Junín.
 - **Garantía de 48 h:** si no está listo 48 h después de recibir los materiales, devuelves el adelanto.
 - **Primeros casos:** a los 3 primeros negocios, arréglales gratis la ficha de Google a cambio de un testimonio.
 - **Contenido en TikTok y Facebook:** publica videos del "antes y después" de una ficha de Google. Nunca muestres datos de clientes sin su permiso.

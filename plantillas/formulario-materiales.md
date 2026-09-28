@@ -4,7 +4,7 @@ Envíalo por WhatsApp apenas recibas el adelanto. **El plazo de 48 h empieza cua
 
 ---
 
-> ¡Gracias por confiar en Rikuy! 🙌 Para dejar tu negocio listo en 48 horas, necesito que me envíes lo siguiente, por aquí mismo:
+> ¡Gracias por confiar en AIXA! 🙌 Para dejar tu negocio listo en 48 horas, necesito que me envíes lo siguiente, por aquí mismo:
 >
 > **1. Datos del negocio**
 > - Nombre exacto del negocio (como quieres que aparezca en Google)
