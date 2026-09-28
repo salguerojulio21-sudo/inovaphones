@@ -18,6 +18,7 @@ También hacemos páginas web (desde S/ 690) y automatizaciones: pedidos, record
 | Archivo | Para qué sirve |
 |---|---|
 | [`docs/plan-inova-digital.md`](docs/plan-inova-digital.md) | Plan de ejecución: nicho, oferta, economía del negocio, 14 días día por día, metas, puntos de corte y riesgos |
+| [`docs/contenido-redes.md`](docs/contenido-redes.md) | Plan de TikTok, Instagram y Facebook sin mostrar la cara: perfil, 20 ideas con guion, calendario de 14 días y métricas |
 | [`docs/prospeccion-virtual.md`](docs/prospeccion-virtual.md) | Cómo conseguir clientes a distancia: canales, límites diarios, entrega remota y reglas |
 | [`sitio/index.html`](sitio/index.html) | Web de AIXA, con demos interactivas, servicios, precios y contacto. Configura tu número en el bloque `CONFIG` |
 | [`plantillas/pagina-cliente.html`](plantillas/pagina-cliente.html) | Plantilla de página para cada cliente. Se edita solo el bloque `NEGOCIO` |
@@ -29,10 +30,25 @@ También hacemos páginas web (desde S/ 690) y automatizaciones: pedidos, record
 | [`herramientas/prospectos.csv`](herramientas/prospectos.csv) | Hoja para seguir a tus prospectos |
 | [`docs/plan-de-ingresos.md`](docs/plan-de-ingresos.md) | Catálogo de las 12 ideas evaluadas, con fuentes |
 
-## Publicar la web (GitHub Pages)
+## Publicar la web
 
-1. Ve a **Settings → Pages**.
-2. En "Source", elige **Deploy from a branch** con esta rama y la carpeta `/ (root)`.
-3. La web quedará en `https://salguerojulio21-sudo.github.io/inovaphones/sitio/`.
+La web está en la carpeta `sitio` e incluye `index.html`, `favicon.svg` y `og.png` (la imagen de vista previa al compartir el enlace).
+
+### Opción A: Cloudflare Pages (gratis y permite uso comercial)
+1. Crea tu cuenta en pages.cloudflare.com y conecta GitHub.
+2. Elige **Create project → Connect to Git** y selecciona el repositorio `inovaphones`.
+3. En "Framework preset" elige **None**. Deja vacío el "Build command" y escribe `sitio` en "Build output directory".
+4. Pulsa **Save and Deploy**. La web quedará en `https://NOMBRE.pages.dev`.
+
+### Opción B: Vercel
+1. Crea tu cuenta en vercel.com con GitHub y elige **Add New → Project**. Importa `inovaphones`.
+2. En "Root Directory" elige `sitio`. En "Framework Preset" elige **Other**. No hace falta comando de build.
+3. Pulsa **Deploy**. La web quedará en `https://NOMBRE.vercel.app`.
+
+**Importante:** el plan gratis de Vercel (Hobby) solo permite uso personal, sin fines comerciales. Para un negocio, Vercel pide el plan Pro (unos US$ 20 al mes).
+
+### Después de publicar
+- Cambia `og.png` por su dirección completa (`https://TU-DOMINIO/og.png`) en la etiqueta `og:image` de `sitio/index.html`, para que la vista previa se vea en WhatsApp y Facebook.
+- Pon tu número en el bloque `CONFIG`, al final de `sitio/index.html`.
 
 **Importante:** este repositorio es **público**. Todo lo que subas aquí lo puede ver cualquiera. Por eso la lista de prospectos **no** está aquí: vive en una página privada.
