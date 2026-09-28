@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Negocio</title>
+<meta name="description" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@80..100,600..800&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/*
+  PLANTILLA DE PÁGINA PARA CLIENTES DE INOVA DIGITAL
+  Cómo usarla:
+  1. Copia este archivo con el nombre del cliente (ej.: sonrie-dental.html).
+  2. Cambia SOLO el bloque NEGOCIO al final del archivo.
+  3. Ábrelo en el celular y revisa que los botones funcionen.
+*/
+:root{
+  color-scheme:light;
+  --brand:#0D6B5F;
+  --paper:#F4F6F5;
+  --card:#FFFFFF;
+  --ink:#121C1A;
+  --ink-2:#4A5856;
+  --line:#DCE3E1;
+  --ok:#1C7C45;
+  --off:#A33A2B;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Sans 3","Segoe UI",Roboto,Arial,sans-serif;font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.page{max-width:520px;margin:0 auto;padding:28px 16px calc(40px + env(safe-area-inset-bottom,0px));display:grid;gap:16px}
+.head{display:grid;justify-items:center;text-align:center;gap:8px}
+.logo{width:88px;height:88px;border-radius:22px;background:var(--brand);color:#fff;display:grid;place-items:center;font-family:"Archivo",Arial,sans-serif;font-weight:800;font-size:34px;overflow:hidden}
+.logo img{width:100%;height:100%;object-fit:cover}
+h1{font-family:"Archivo","Arial Narrow",Arial,sans-serif;font-stretch:88%;font-weight:800;font-size:30px;line-height:1.1;margin:0;text-wrap:balance}
+.sub{color:var(--ink-2);margin:0}
+.status{font-size:14px;font-weight:700;border-radius:999px;padding:3px 12px;background:#E3F1E8;color:var(--ok)}
+.status.closed{background:#F7E4E0;color:var(--off)}
+.buttons{display:grid;gap:10px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font-weight:700;font-size:18px;border-radius:14px;padding:15px 18px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+.btn.main{background:var(--brand);border-color:var(--brand);color:#fff}
+.btn svg{width:22px;height:22px;flex:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:grid;gap:10px}
+.card h2{font-family:"Archivo",Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);margin:0}
+.rows{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.rows li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--line);padding-bottom:6px}
+.rows li:last-child{border-bottom:0;padding-bottom:0}
+.rows li span:last-child{font-variant-numeric:tabular-nums;color:var(--ink-2);text-align:right;white-space:nowrap}
+.rows li.today{font-weight:700}
+.pay{color:var(--ink-2);margin:0}
+.social{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.social a{font-size:15px;font-weight:600;color:var(--brand);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;background:var(--card)}
+.legal{display:grid;gap:6px;justify-items:center;font-size:14px;color:var(--ink-2);text-align:center}
+.legal a{color:var(--ink-2)}
+.book{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--ink);border:1.5px solid var(--ink);border-radius:8px;padding:6px 12px;text-decoration:none}
+.credit{font-size:13px;color:#8A9694}
+.credit a{color:#8A9694}
+a:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+</style>
+</head>
+<body>
+<main class="page" id="app" aria-live="polite"></main>
+
+<script>
+/* ============================================================
+   DATOS DEL NEGOCIO: cambia solo este bloque
+   - whatsapp: código de país + número, sin espacios ni "+". Ej.: 51987654321
+   - horario: por día (0 = domingo … 6 = sábado). null = cerrado.
+   - Deja "" en lo que no aplique y ese elemento no se muestra.
+   ============================================================ */
+var NEGOCIO = {
+  nombre: "Tu Consultorio Dental",
+  rubro: "Odontología general · Limpieza · Ortodoncia",
+  distrito: "Distrito, Lima",
+  logo: "",                         // URL de imagen, o "" para usar la inicial
+  color: "#0D6B5F",                 // color de marca del cliente
+  whatsapp: "51XXXXXXXXX",
+  mensajeWhatsApp: "Hola, quiero agendar una cita",
+  telefono: "",                     // opcional, ej.: "01 555 5555"
+  mapa: "",                         // enlace de "Cómo llegar" de Google Maps
+  resenas: "",                      // enlace para dejar reseña en Google
+  horario: {
+    1: ["09:00", "20:00"],
+    2: ["09:00", "20:00"],
+    3: ["09:00", "20:00"],
+    4: ["09:00", "20:00"],
+    5: ["09:00", "20:00"],
+    6: ["09:00", "14:00"],
+    0: null
+  },
+  servicios: [                      // precios de EJEMPLO: reemplázalos por los del cliente
+    ["Consulta y evaluación", "S/ 00"],
+    ["Limpieza dental", "desde S/ 00"],
+    ["Curación", "desde S/ 00"]
+  ],
+  pagos: "Yape · Plin · Efectivo · Tarjeta",
+  libroReclamaciones: "",           // enlace al Libro de Reclamaciones virtual
+  politicaPrivacidad: "",           // enlace a la política de privacidad
+  redes: { instagram: "", facebook: "", tiktok: "" },
+  ruc: "",                          // opcional
+  hechoPor: { nombre: "Inova Digital", enlace: "" }
+};
+
+(function(){
+  var N = NEGOCIO;
+  var DIAS = ["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"];
+  document.documentElement.style.setProperty("--brand", N.color || "#0D6B5F");
+  document.title = N.nombre;
+  var meta = document.querySelector('meta[name="description"]');
+  if (meta) meta.setAttribute("content", N.nombre + " · " + N.rubro + " · " + N.distrito);
+
+  function esc(s){ return String(s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]; }); }
+  function mins(hhmm){ var p = hhmm.split(":"); return (+p[0]) * 60 + (+p[1]); }
+
+  var now = new Date(), d = now.getDay(), m = now.getHours() * 60 + now.getMinutes();
+  var hoy = N.horario[d];
+  var abierto = !!(hoy && m >= mins(hoy[0]) && m < mins(hoy[1]));
+  var estado = abierto ? "Abierto ahora · cierra a las " + hoy[1] : "Cerrado ahora";
+
+  var waOk = /^\d{10,15}$/.test(N.whatsapp);
+  var wa = waOk ? "https://wa.me/" + N.whatsapp + "?text=" + encodeURIComponent(N.mensajeWhatsApp) : "#";
+  var icoWa = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15l-1.3 4.76 4.88-1.28A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-2.9.76.78-2.83-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg>';
+
+  var html = "";
+  html += '<header class="head">';
+  html += '<div class="logo">' + (N.logo ? '<img src="' + esc(N.logo) + '" alt="Logo de ' + esc(N.nombre) + '">' : esc(N.nombre.trim().charAt(0))) + '</div>';
+  html += '<h1>' + esc(N.nombre) + '</h1>';
+  html += '<p class="sub">' + esc(N.rubro) + '</p>';
+  html += '<p class="sub">' + esc(N.distrito) + '</p>';
+  html += '<span class="status' + (abierto ? '' : ' closed') + '">' + esc(estado) + '</span>';
+  html += '</header>';
+
+  html += '<nav class="buttons" aria-label="Acciones">';
+  html += '<a class="btn main" href="' + wa + '" target="_blank" rel="noopener">' + icoWa + (waOk ? 'Agendar por WhatsApp' : 'Falta configurar WhatsApp') + '</a>';
+  if (N.mapa) html += '<a class="btn" href="' + esc(N.mapa) + '" target="_blank" rel="noopener">Cómo llegar</a>';
+  if (N.telefono) html += '<a class="btn" href="tel:' + esc(N.telefono.replace(/\s/g, "")) + '">Llamar · ' + esc(N.telefono) + '</a>';
+  if (N.resenas) html += '<a class="btn" href="' + esc(N.resenas) + '" target="_blank" rel="noopener">Déjanos tu reseña en Google</a>';
+  html += '</nav>';
+
+  if (N.servicios && N.servicios.length){
+    html += '<section class="card"><h2>Servicios y precios</h2><ul class="rows">';
+    N.servicios.forEach(function(s){ html += '<li><span>' + esc(s[0]) + '</span><span>' + esc(s[1]) + '</span></li>'; });
+    html += '</ul></section>';
+  }
+
+  html += '<section class="card"><h2>Horario</h2><ul class="rows">';
+  [1,2,3,4,5,6,0].forEach(function(i){
+    var h = N.horario[i];
+    html += '<li' + (i === d ? ' class="today"' : '') + '><span>' + DIAS[i] + '</span><span>' + (h ? h[0] + " – " + h[1] : "Cerrado") + '</span></li>';
+  });
+  html += '</ul></section>';
+
+  if (N.pagos) html += '<section class="card"><h2>Medios de pago</h2><p class="pay">' + esc(N.pagos) + '</p></section>';
+
+  var r = N.redes || {}, redes = "";
+  if (r.instagram) redes += '<a href="' + esc(r.instagram) + '" target="_blank" rel="noopener">Instagram</a>';
+  if (r.facebook) redes += '<a href="' + esc(r.facebook) + '" target="_blank" rel="noopener">Facebook</a>';
+  if (r.tiktok) redes += '<a href="' + esc(r.tiktok) + '" target="_blank" rel="noopener">TikTok</a>';
+  if (redes) html += '<nav class="social" aria-label="Redes sociales">' + redes + '</nav>';
+
+  html += '<footer class="legal">';
+  if (N.libroReclamaciones) html += '<a class="book" href="' + esc(N.libroReclamaciones) + '" target="_blank" rel="noopener">📖 Libro de Reclamaciones</a>';
+  if (N.politicaPrivacidad) html += '<a href="' + esc(N.politicaPrivacidad) + '" target="_blank" rel="noopener">Política de privacidad</a>';
+  if (N.ruc) html += '<span>RUC ' + esc(N.ruc) + '</span>';
+  if (N.hechoPor && N.hechoPor.nombre){
+    html += '<span class="credit">Página hecha por ' + (N.hechoPor.enlace ? '<a href="' + esc(N.hechoPor.enlace) + '" target="_blank" rel="noopener">' + esc(N.hechoPor.nombre) + '</a>' : esc(N.hechoPor.nombre)) + '</span>';
+  }
+  html += '</footer>';
+
+  document.getElementById("app").innerHTML = html;
+})();
+</script>
+</body>
+</html>
